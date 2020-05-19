@@ -14,7 +14,7 @@ Simple AutoTest on the Robot Framework (Python) to check the operation of button
     webdrivermanager chrome 
     
 
-# Запуск тестов
+# Запуск теста
     robot --variable BROWSER:chrome --listener "listeners/functional_tests/CommonListener.py;test_check_buttons" --listener allure_robotframework tests/functional_tests/test_buttons/test_buttons.robot
 
-В переменной браузер, можно указывать и другие браузеры. Например :headlesschrome или :firefox.
+В переменной BROWSER, можно указывать и другие браузеры. Например :headlesschrome или :firefox.
