@@ -1,18 +1,18 @@
-# Установка
+# Installation
 
 
-Установка зависимостей:
+Installing dependencies:
 
     pip install -r requirements.txt
     pip install slackclient==1.0.0
     
     
-Скачиваем драйвер для работы с браузером используя пакет webdrivermanager
+Download the driver to work with the browser using the web driver manager package
 
     webdrivermanager chrome 
     
 
-# Запуск теста
+# Running the test
     robot --variable BROWSER:chrome --listener "listeners/functional_tests/CommonListener.py;test_check_buttons" --listener allure_robotframework tests/functional_tests/test_buttons/test_buttons.robot
 
-В переменной BROWSER, можно указывать и другие браузеры. Например :headlesschrome или :firefox.
+In the BROWSER variable, you can specify other browsers. For example: headless chrome or: firefox.
