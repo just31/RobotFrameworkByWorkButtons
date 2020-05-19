@@ -24,4 +24,5 @@ In the BROWSER variable, you can specify other browsers. For example: headlessch
 Learn more about how to configure allure - https://github.com/allure-framework/allure2
 
 
-Link to Demo - https://drive.google.com/open?id=1ARmItloOmuwks4Tl0Pfv0hEgky8FF7nE
+
+Link to demo autotest - https://drive.google.com/open?id=1ARmItloOmuwks4Tl0Pfv0hEgky8FF7nE
